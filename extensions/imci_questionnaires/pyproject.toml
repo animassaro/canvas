@@ -1,0 +1,7 @@
+[project]
+description = "WHO IMCI Fever pathway questionnaires (gate, common assessment, malaria test, measles examination) for use with the clinical_pathways plugin."
+license = "MIT"
+name = "imci_questionnaires"
+readme = "README.md"
+requires-python = ">=3.11"
+version = "0.1.0"

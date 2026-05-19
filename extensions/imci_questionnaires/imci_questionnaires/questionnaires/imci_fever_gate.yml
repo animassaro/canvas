@@ -1,0 +1,19 @@
+name: IMCI Fever Gate
+form_type: QUES
+code_system: INTERNAL
+code: IMCI_FEVER_GATE
+can_originate_in_charting: true
+prologue: |
+  WHO IMCI Fever pathway — entry screen. Confirm fever is present before
+  proceeding with the assessment.
+questions:
+  - content: "Does the child have fever? (history of fever, feels hot, or axillary temp ≥ 37.5 °C)"
+    code_system: INTERNAL
+    code: IMCI_FG_FEVER_PRESENT
+    responses_code_system: INTERNAL
+    responses_type: SING
+    responses:
+      - name: "Yes"
+        code: IMCI_FG_FEVER_PRESENT_YES
+      - name: "No"
+        code: IMCI_FG_FEVER_PRESENT_NO

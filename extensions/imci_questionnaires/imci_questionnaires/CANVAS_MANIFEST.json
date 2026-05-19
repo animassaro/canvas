@@ -1,0 +1,27 @@
+{
+    "sdk_version": "0.139.0",
+    "plugin_version": "0.1.0",
+    "name": "imci_questionnaires",
+    "description": "WHO IMCI Fever pathway questionnaires for use with the clinical_pathways plugin.",
+    "url_permissions": [],
+    "components": {
+        "applications": [],
+        "protocols": [],
+        "commands": [],
+        "content": [],
+        "effects": [],
+        "views": [],
+        "questionnaires": [
+            { "template": "questionnaires/imci_fever_gate.yml" },
+            { "template": "questionnaires/imci_fever_common_assessment.yml" },
+            { "template": "questionnaires/imci_malaria_test_result.yml" },
+            { "template": "questionnaires/imci_measles_examination.yml" }
+        ]
+    },
+    "secrets": [],
+    "tags": {},
+    "references": [],
+    "license": "MIT",
+    "diagram": false,
+    "readme": "../README.md"
+}

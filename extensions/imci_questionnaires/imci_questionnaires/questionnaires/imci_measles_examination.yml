@@ -1,0 +1,55 @@
+name: IMCI Measles Examination
+form_type: QUES
+code_system: INTERNAL
+code: IMCI_MEASLES_EXAM
+can_originate_in_charting: true
+prologue: |
+  Additional examination when the child has measles now or had measles in
+  the last 3 months. Routes to severe / moderate / mild measles
+  classifications.
+questions:
+  - content: "Mouth ulcers"
+    code_system: INTERNAL
+    code: IMCI_ME_ULCERS
+    responses_code_system: INTERNAL
+    responses_type: SING
+    responses:
+      - name: "Deep or extensive"
+        code: IMCI_ME_ULCERS_DEEP
+      - name: "Shallow only"
+        code: IMCI_ME_ULCERS_SHALLOW
+      - name: "None"
+        code: IMCI_ME_ULCERS_NONE
+
+  - content: "Pus draining from the eye?"
+    code_system: INTERNAL
+    code: IMCI_ME_PUS
+    responses_code_system: INTERNAL
+    responses_type: SING
+    responses:
+      - name: "Yes"
+        code: IMCI_ME_PUS_YES
+      - name: "No"
+        code: IMCI_ME_PUS_NO
+
+  - content: "Clouding of the cornea?"
+    code_system: INTERNAL
+    code: IMCI_ME_CORNEA
+    responses_code_system: INTERNAL
+    responses_type: SING
+    responses:
+      - name: "Yes"
+        code: IMCI_ME_CORNEA_YES
+      - name: "No"
+        code: IMCI_ME_CORNEA_NO
+
+  - content: "Any general danger sign?"
+    code_system: INTERNAL
+    code: IMCI_ME_DANGER
+    responses_code_system: INTERNAL
+    responses_type: SING
+    responses:
+      - name: "Yes"
+        code: IMCI_ME_DANGER_YES
+      - name: "No"
+        code: IMCI_ME_DANGER_NO

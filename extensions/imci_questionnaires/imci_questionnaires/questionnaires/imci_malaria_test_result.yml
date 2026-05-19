@@ -1,0 +1,21 @@
+name: IMCI Malaria Test Result
+form_type: QUES
+code_system: INTERNAL
+code: IMCI_MALARIA_TEST
+can_originate_in_charting: true
+prologue: |
+  Capture the malaria rapid diagnostic test result. Routes the fever pathway
+  to MALARIA / FEVER:NO MALARIA / undifferentiated classifications.
+questions:
+  - content: "Malaria rapid diagnostic test result"
+    code_system: INTERNAL
+    code: IMCI_MT_RESULT
+    responses_code_system: INTERNAL
+    responses_type: SING
+    responses:
+      - name: "Positive"
+        code: IMCI_MT_RESULT_POS
+      - name: "Negative"
+        code: IMCI_MT_RESULT_NEG
+      - name: "Not done"
+        code: IMCI_MT_RESULT_NONE
