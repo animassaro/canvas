@@ -15,5 +15,7 @@ questions:
     responses:
       - name: "Yes"
         code: IMCI_FG_FEVER_PRESENT_YES
+        value: "1"
       - name: "No"
         code: IMCI_FG_FEVER_PRESENT_NO
+        value: "0"

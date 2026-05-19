@@ -1,6 +1,6 @@
 {
     "sdk_version": "0.139.0",
-    "plugin_version": "0.1.0",
+    "plugin_version": "0.1.2",
     "name": "imci_questionnaires",
     "description": "WHO IMCI Fever pathway questionnaires for use with the clinical_pathways plugin.",
     "url_permissions": [],

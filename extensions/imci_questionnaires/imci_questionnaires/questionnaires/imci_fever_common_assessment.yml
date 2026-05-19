@@ -15,8 +15,10 @@ questions:
     responses:
       - name: "Less than 7 days"
         code: IMCI_FC_DURATION_LT7
+        value: "0"
       - name: "7 days or more"
         code: IMCI_FC_DURATION_GE7
+        value: "1"
 
   - content: "If 7 days or more, has the child had fever every day?"
     code_system: INTERNAL
@@ -30,8 +32,10 @@ questions:
     responses:
       - name: "Yes"
         code: IMCI_FC_DAILY_YES
+        value: "1"
       - name: "No"
         code: IMCI_FC_DAILY_NO
+        value: "0"
 
   - content: "Has the child had measles in the last 3 months (or has measles now)?"
     code_system: INTERNAL
@@ -41,8 +45,10 @@ questions:
     responses:
       - name: "Yes"
         code: IMCI_FC_MEASLES_YES
+        value: "1"
       - name: "No"
         code: IMCI_FC_MEASLES_NO
+        value: "0"
 
   - content: "On exam: stiff neck?"
     code_system: INTERNAL
@@ -52,8 +58,10 @@ questions:
     responses:
       - name: "Yes"
         code: IMCI_FC_STIFF_NECK_YES
+        value: "1"
       - name: "No"
         code: IMCI_FC_STIFF_NECK_NO
+        value: "0"
 
   - content: "Any general danger sign? (unable to drink or breastfeed, vomits everything, convulsions, lethargic or unconscious)"
     code_system: INTERNAL
@@ -63,8 +71,10 @@ questions:
     responses:
       - name: "Yes"
         code: IMCI_FC_DANGER_YES
+        value: "1"
       - name: "No"
         code: IMCI_FC_DANGER_NO
+        value: "0"
 
   - content: "Apparent cause of fever other than malaria? (pneumonia, ear or throat infection, skin, etc.)"
     code_system: INTERNAL
@@ -74,8 +84,10 @@ questions:
     responses:
       - name: "Yes"
         code: IMCI_FC_OTHER_CAUSE_YES
+        value: "1"
       - name: "No"
         code: IMCI_FC_OTHER_CAUSE_NO
+        value: "0"
 
   - content: "Malaria-risk level of this clinic's catchment area"
     code_system: INTERNAL
@@ -85,10 +97,13 @@ questions:
     responses:
       - name: "High"
         code: IMCI_FC_MALARIA_RISK_HIGH
+        value: "2"
       - name: "Low"
         code: IMCI_FC_MALARIA_RISK_LOW
+        value: "1"
       - name: "None"
         code: IMCI_FC_MALARIA_RISK_NONE
+        value: "0"
 
   - content: "If no local risk, recent travel to a malaria-risk area?"
     code_system: INTERNAL
@@ -102,5 +117,7 @@ questions:
     responses:
       - name: "Yes"
         code: IMCI_FC_TRAVEL_YES
+        value: "1"
       - name: "No"
         code: IMCI_FC_TRAVEL_NO
+        value: "0"

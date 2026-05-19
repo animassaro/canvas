@@ -15,7 +15,10 @@ questions:
     responses:
       - name: "Positive"
         code: IMCI_MT_RESULT_POS
+        value: "1"
       - name: "Negative"
         code: IMCI_MT_RESULT_NEG
+        value: "0"
       - name: "Not done"
         code: IMCI_MT_RESULT_NONE
+        value: "-1"

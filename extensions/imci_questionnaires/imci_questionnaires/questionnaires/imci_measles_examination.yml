@@ -16,10 +16,13 @@ questions:
     responses:
       - name: "Deep or extensive"
         code: IMCI_ME_ULCERS_DEEP
+        value: "2"
       - name: "Shallow only"
         code: IMCI_ME_ULCERS_SHALLOW
+        value: "1"
       - name: "None"
         code: IMCI_ME_ULCERS_NONE
+        value: "0"
 
   - content: "Pus draining from the eye?"
     code_system: INTERNAL
@@ -29,8 +32,10 @@ questions:
     responses:
       - name: "Yes"
         code: IMCI_ME_PUS_YES
+        value: "1"
       - name: "No"
         code: IMCI_ME_PUS_NO
+        value: "0"
 
   - content: "Clouding of the cornea?"
     code_system: INTERNAL
@@ -40,8 +45,10 @@ questions:
     responses:
       - name: "Yes"
         code: IMCI_ME_CORNEA_YES
+        value: "1"
       - name: "No"
         code: IMCI_ME_CORNEA_NO
+        value: "0"
 
   - content: "Any general danger sign?"
     code_system: INTERNAL
@@ -51,5 +58,7 @@ questions:
     responses:
       - name: "Yes"
         code: IMCI_ME_DANGER_YES
+        value: "1"
       - name: "No"
         code: IMCI_ME_DANGER_NO
+        value: "0"
